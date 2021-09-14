@@ -13,7 +13,7 @@ body {
 
 .menu-img {
     margin-top: 60px;
-    margin-left: 60px;
+    margin-left: 120px;
 }
 
 .p-header {
@@ -40,17 +40,9 @@ main {
     align-items: center;
 }
 
-/* .img-garrafa {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.img-garrafa {
+    margin-right: 265px;
 }
-
-.texto-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
 
 .p-main {
     font-family: 'Montserrat', sans-serif;
@@ -59,16 +51,23 @@ main {
     max-width: 220px;
     display: flex;
     text-align: right;
+    margin-right: 20px;
 }
 
-footer {
+.footer-global {
     display: flex;
-    justify-content: flex-end;
-    margin-right: 60px;
+    flex-direction: column;
+    margin-right: 120px;
+    max-width: 10px;
+    float: right;
+    align-items: center;
 }
 
 footer p {
     display: flex;
     color: white;
     font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin-top: 7px;
+    margin-bottom: 10px;
 }
